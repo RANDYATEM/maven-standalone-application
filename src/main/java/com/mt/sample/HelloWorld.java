@@ -1,20 +1,19 @@
 package com.mt.sample;
 
 /**
- * Hello world!
+ * Welcome to ServiceX!
  *
  */
 import java.util.Date;
 
-public class HelloWorld {
+public class ServiceX {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Engineers, Welcome to Landmark Technologies DevOps Master Class. You are sudying Maven Build Tool. !! Today Date is:  " + getLocalCurrentDate());
-
+		System.out.println("Hello future customers, Please enter your name and email")
 	}
 
 	private static Date getLocalCurrentDate() {
-		String m = "Landmark Technologies";
+		String m = "ServiceX";
 		return new Date();
 
 	}
